@@ -15,7 +15,7 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
-      url: 'https://github.com/baybilon',
+      url: 'https://www.linkedin.com/in/iqbal-pratama-yuda-57403770/',
     },
     {
       icon: 'fa-github',
@@ -34,6 +34,6 @@ module.exports = {
     },
   ],
   emailId: 'iqbal.py@outlook.com',
-  phone: '020182389123',
+  phone: '085158173324',
   address: 'Bandung, Indonesia',
 };
