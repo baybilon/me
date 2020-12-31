@@ -207,7 +207,7 @@ const IndexPage = () => (
               <p>
                This is my last content creation from my last project
                , the most content that i made is about virtual photography and cinematic
-               that i took from games.
+               that i took from games. Visit my youtube or instagram for more.
               </p>
             </header>
             <div className="content">
