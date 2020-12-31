@@ -165,7 +165,7 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Integer mollis egestas</strong> Here is my portofolio from my last project
+            Here is my <strong>portofolio</strong> from my last project
           </p>
 
           <section>
@@ -189,10 +189,9 @@ const IndexPage = () => (
             <header>
               <h3>3D Scene</h3>
               <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-                aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-                amet convallis, porttitor magna ullamcorper, amet mauris. Ut
-                magna finibus nisi nec lacinia ipsum maximus.
+               Some scene that i made from blender, with some other work flow
+               to design and simulate the clothes in marvelous design.
+               
               </p>
             </header>
             <div className="content">
@@ -206,10 +205,9 @@ const IndexPage = () => (
             <header>
               <h3>Content Creation</h3>
               <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-                feugiat tempus aenean ornare velit lacus, ac varius sed enim
-                lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-                dolore. Proin aliquam facilisis.
+               This is my last content creation from my last project
+               , the most content that i made is about virtual photography and cinematic
+               that i took from games.
               </p>
             </header>
             <div className="content">
