@@ -17,22 +17,22 @@ const img_set_1 = [
   {
     src: require('../assets/images/gallery/fulls/web/Dashboard.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/web/Dashboard.jpg'),
-    title: 'Great Sky',
-    desc: 'Be one with the Universe',
+    title: 'System Information Academic',
+    desc: 'Dashboard',
     full: true,
   },
   {
     src: require('../assets/images/gallery/fulls/web/DataUser.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/web/DataUser.jpg'),
-    title: 'High Mountains',
-    desc: 'Be one with the mountains',
+    title: 'High System Information Academic',
+    desc: 'Data User',
     full: true,
   },
   {
     src: require('../assets/images/gallery/fulls/web/Proposal.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/web/Proposal.jpg'),
-    title: 'Any time ',
-    desc: 'Be one with the time',
+    title: 'System Information Academic',
+    desc: 'Create Proposal',
     full: true,
   },
 ];
@@ -40,7 +40,7 @@ const img_set_2 = [
   {
     src: require('../assets/images/gallery/fulls/3d/front_CB.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/3d/front_CB.jpg'),
-    title: 'Any Curiosity',
+    title: 'Cyberpunk Concept6678',
     desc: 'Be one with the curiosity',
   },
   {
@@ -62,14 +62,14 @@ const img_set_3 = [
     src: require('../assets/images/gallery/fulls/content/f40.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/content/f40.jpg'),
     title: 'The Crew 2 - Music Video',
-    desc: 'Be one with the empathy',
+    desc: 'https://youtu.be/2w9ImeU2L_0',
     full: true,
   },
   {
     src: require('../assets/images/gallery/fulls/content/gtr.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/content/gtr.jpg'),
     title: 'The Crew 2 - Morning Ride',
-    desc: 'Be one with the moment',
+    desc: 'https://youtu.be/pgiWKeemcAM',
     full: true,
   },
 ];
