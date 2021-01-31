@@ -53,7 +53,7 @@ const img_set_2 = [
     src: require('../assets/images/gallery/fulls/3d/setan.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/3d/setan.jpg'),
     title: 'Concept art',
-    desc: 'Wndigo',
+    desc: 'Wendigo',
     full: true,
   },
 ];
