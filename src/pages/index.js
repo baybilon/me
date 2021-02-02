@@ -41,7 +41,7 @@ const img_set_2 = [
     src: require('../assets/images/gallery/fulls/3d/front_CB.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/3d/front_CB.jpg'),
     title: 'Cyberpunk Concept',
-    desc: '',
+    desc: '3d of myself',
   },
   {
     src: require('../assets/images/gallery/fulls/3d/1.jpg'),
@@ -78,7 +78,7 @@ const img_set_4 = [
   {
     src: require('../assets/images/gallery/fulls/photo/gaga.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/photo/gaga.jpg'),
-    title: 'Frelance',
+    title: 'Freelance',
     desc: 'Street photograpy',
     full: true,
   },
