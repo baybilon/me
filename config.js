@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#60C5BA',
   manifestThemeColor: '#60C5BA',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/icon.jpg',
+  manifestIcon: 'src/assets/img/icon.png',
   pathPrefix: `/porto-content/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Iqbal Pratama Yuda Putra',
   subHeading: 'System Information Engineer  ',
