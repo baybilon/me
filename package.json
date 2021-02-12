@@ -4,7 +4,7 @@
   "description": "Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift.git"
+    "url": ""
   },
   "dependencies": {
     "gatsby": "^2.20.2",
@@ -40,9 +40,6 @@
     "gatsby-starter",
     "gatsby-starter-paradigmshift"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift#readme"
+  "license": "MIT"
+ 
 }
