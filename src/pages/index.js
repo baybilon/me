@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
 import heroImage from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import pic2 from '../assets/images/dji_0046_L.jpg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
@@ -128,15 +128,13 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            My name is Iqbal Pratama Yuda Putra this is my portofolio i
-            was graduated on last year i took <strong>Information System</strong> major
-            in Widaytama University.
-            I am very passionate and always curious to try something interesting
-            about programming and content creation, and I
-            have programming experiences such as develop a website
-            for acedemic services in Widyatama University as my minithesis
-            and creating content about video games, videography,
-            photography.
+            My name is Iqbal Pratama Yuda Putra this is my portofolio, 
+            As a graduate in <strong>Computer System Information</strong>, I had enthusiasm for
+            web programming, videography, photography, and creating 3D
+            scenery. My strong focus drives me to take initiative and actively
+            explore new opportunities for creative expression. I am well-versed in
+            a variety of contemporary technologies, including React Js, Code
+            Igniter, and the Adobe Family.
           </p>
           <span className="image main">
             <img src={pic2} alt="" />
