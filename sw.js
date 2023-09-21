@@ -27,20 +27,20 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ffb73ed45ce5bb767a0d.js"
+    "url": "webpack-runtime-0e68fdc5fc0faa69a168.js"
   },
   {
-    "url": "framework-8e528b732ab2eaadb7b7.js"
+    "url": "framework-49d97c1e631f53564352.js"
   },
   {
-    "url": "app-7646c0683a4f531ada53.js"
+    "url": "app-7e42adc509032f38cc70.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "84d7a303443bd08f063777f6c373742e"
+    "revision": "1bc24f563a5611dd3f61e6493dcd70c6"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-46b4173e1060a5c82475.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "f3e989ac4a7f1777d43fa9ce96c48be4"
+    "revision": "e7f1aeed88f0b86ac310a429997c195a"
   },
   {
-    "url": "polyfill-78cdc6a84a6e659c51c0.js"
+    "url": "polyfill-826594aefaaaff36c77f.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "73236c0860664c7352e7502cc076708b"
+    "revision": "5638376212329ba000173d5dd6ff621b"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/porto-content`), ``)
+  pathname = pathname.replace(new RegExp(`^/me`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/porto-content/app-7646c0683a4f531ada53.js`))) {
+  if (!resources || !(await caches.match(`/me/app-7e42adc509032f38cc70.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/porto-content/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/me/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
