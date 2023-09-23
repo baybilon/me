@@ -89,10 +89,10 @@ const img_set_4 = [
     desc: 'Engagement event',
   },
   {
-    src: require('../assets/images/gallery/fulls/photo/salju.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/photo/salju.jpg'),
-    title: 'Holiday',
-    desc: 'People of interest',
+    src: require('../assets/images/gallery/fulls/photo/_mg_3894_L_1.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/photo/_mg_3894_L_1_t.jpg'),
+    title: 'Kick Fest Event',
+    desc: 'Gigs photography',
   },
   {
     src: require('../assets/images/gallery/fulls/photo/ikiw.jpg'),
