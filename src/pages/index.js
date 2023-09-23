@@ -89,8 +89,8 @@ const img_set_4 = [
     desc: 'Engagement event',
   },
   {
-    src: require('../assets/images/gallery/fulls/photo/_mg_3894_L_1.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/photo/_mg_3894_L_1_t.jpg'),
+    src: require('../assets/images/gallery/fulls/photo/img_3894_L.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/photo/img_3894_Lt.jpg'),
     title: 'Kick Fest Event',
     desc: 'Gigs photography',
   },
