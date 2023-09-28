@@ -34,6 +34,6 @@ module.exports = {
     },
   ],
   emailId: 'iqbal.py@outlook.com',
-  phone: '085158173324',
+  phone: '+6285158173324',
   address: 'Bandung, Indonesia',
 };

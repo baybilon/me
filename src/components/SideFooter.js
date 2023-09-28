@@ -13,7 +13,7 @@ export default function SideFooter() {
         {config.phone && (
           <li>
             <h3>Phone</h3>
-            <span>{config.phone}</span>
+            <span><a href={`https://wa.me/${config.phone}`}>{config.phone}</a></span>
           </li>
         )}
         {config.address && (
