@@ -105,7 +105,7 @@ const img_set_4 = [
     src: require('../assets/images/gallery/fulls/photo/aloe.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/photo/aloe.jpg'),
     title: 'Freelance',
-    desc: 'Photo Product',
+    desc: 'Product portofolio',
     full: true,
   },
 ];
